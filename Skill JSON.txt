@@ -1,0 +1,60 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mat train",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "close",
+                        "Exit",
+                        "Cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Setupmytrain",
+                    "slots": [],
+                    "samples": [
+                        "set up",
+                        "Set up my train"
+                    ]
+                },
+                {
+                    "name": "GetMyTrainNumber",
+                    "slots": [
+                        {
+                            "name": "TrainNumber",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{TrainNumber}"
+                    ]
+                },
+                {
+                    "name": "ProceedForSetup",
+                    "slots": [],
+                    "samples": [
+                        "proceed further"
+                    ]
+                },
+                {
+                    "name": "WhereIsMyTrain",
+                    "slots": [],
+                    "samples": [
+                        "Where is my train"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
