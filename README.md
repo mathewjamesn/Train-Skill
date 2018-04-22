@@ -13,4 +13,36 @@ Alexa, ask mat train.
 index.js
 Voice UI Skills JSON
 
+# Instructions to run
+
+For Alexa Skills UI
+	1) After creating a new skill , click on the JSON editor and replace with the Skill JSON file which creates the Intents, slots and other details.
+
+For Lambda
+	1) While creating the Lambda function I have used the Blueprint alexa-skill-kit-sdk-factskill so that it creates all the Alexa-sdk related files.
+	2) Replaced the index.js with the code I have incorporated. 
+
+To invoke the skill say, 
+
+User: "Alexa open mat train"
+
+Skill: " Welcome back. Please say, set up to set up your train "
+
+User: "set up my train"
+
+Skill: " Whats the train number "
+
+User: "one six five two six"
+
+Skill: " Ok. So you would like to set up the train 1 6 5 2 6 which is KANYAKUMARI Express. If this is correct, please say, Proceed. "
+
+User: "proceed"
+
+Skill: " Perfect. You have Successfully set up your Train. If you would like to know status of your train now, you can say, Where is my train. "
+
+User: "where is my train"
+
+Skill: "Train departed from BANGALORE CANT and late by 3 minutes."
+
+User can also ask for Help to know the details about this skill.
 
